@@ -61,9 +61,4 @@ public class MainActivity extends AppCompatActivity {
         return Double.parseDouble(editText.getText().toString());
     }
 
-    private void setText(double res) {
-        TextView resultView = findViewById(R.id.textView3);
-
-        resultView.setText(String.format(Locale.US, "%s %.2f", getString(R.string.result), res));
-    }
 }
